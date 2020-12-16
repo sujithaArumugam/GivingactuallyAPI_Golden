@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GivingActuallyAPI", "firstWebAPI\GivingActuallyAPI.csproj", "{CFE34469-D401-4037-8B29-81B4A5B13464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE34469-D401-4037-8B29-81B4A5B13464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE34469-D401-4037-8B29-81B4A5B13464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE34469-D401-4037-8B29-81B4A5B13464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE34469-D401-4037-8B29-81B4A5B13464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCA328AE-84BC-478D-B08F-3FDE2FF7C3BB}
+	EndGlobalSection
+EndGlobal

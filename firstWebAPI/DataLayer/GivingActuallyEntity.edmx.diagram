@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f90ab1a682b5423f84f2767fc20d8ec4" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="GivingActuallyModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.ExceptionLogger" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_BeneficiaryDetails" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_Campaign" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_CampaignDescription" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_CampaignDescriptionUpdates" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_CampaignDonation" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_CityDetails" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_Endorse" Width="1.5" PointX="5.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_GeoLocation" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_Like" Width="1.5" PointX="8.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_ParentComment" Width="1.5" PointX="8.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_Shares" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_StoriesAttachment" Width="1.5" PointX="5.25" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_UpdatesAttachment" Width="1.5" PointX="5.25" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_User" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_UserAuthentication" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_UserNGOEndorsement" Width="1.5" PointX="8" PointY="24" IsExpanded="true" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Endorse_Story" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Like_Story" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_ParentComment_Story" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Shares_Story" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_Attachment_Tbl_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_Campaign_Tbl_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_CampaignDonation_Tbl_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_StoriesAttachment_Tbl_Campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_campaign_user" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Like_user" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_parent_user" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Shares_user" ManuallyRouted="false" />
+        <AssociationConnector Association="GivingActuallyModel.FK_tbl_UserNGOEndorsement_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_SearchCampaignResult" Width="1.5" PointX="9.75" PointY="8.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_searchResult" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_CommentCount" Width="1.5" PointX="9.375" PointY="4.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_DntionCount" Width="1.5" PointX="7.375" PointY="11.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_DonorsCount" Width="1.5" PointX="9.375" PointY="11.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_EndorseCount" Width="1.5" PointX="11.375" PointY="11.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_LikesCount" Width="1.5" PointX="12.375" PointY="8.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_search" Width="1.5" PointX="13.375" PointY="5.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_placeCount" Width="1.5" PointX="13.375" PointY="11.75" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_Beneficiary_Tbl_Campaign" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_CampaignDescription_Tbl_Campaign" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_CampaignDescriptionUpdates_Tbl_Campaign" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_CampaignWithdrawRequest" Width="1.5" PointX="5.25" PointY="20.75" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_CampaignWithdrawRequest_Tbl_Campaign" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_CmpnBenBankDetails" Width="3.125" PointX="5.25" PointY="24.25" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_CmpnBenBankDetails_Tbl_Campaign" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_DistanceCount" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_WithdrawRequest_History" Width="1.5" PointX="5.25" PointY="36.5" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_WithdrawRequest_History_Tbl_Campaign" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_WithdrawRequestHistory" Width="1.5" PointX="5.25" PointY="40.5" />
+        <AssociationConnector Association="GivingActuallyModel.FK_Tbl_WithdrawRequest_Tbl_Campaign" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_lookup" Width="1.5" PointX="13.375" PointY="0.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_CmpnBenBankDetails1" Width="1.5" PointX="10.375" PointY="14.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_Loan" Width="1.5" PointX="12.375" PointY="14.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanBenDetails" Width="1.5" PointX="14.375" PointY="14.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanCityDetails" Width="1.5" PointX="14.375" PointY="8.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanDescription" Width="1.5" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.tbl_LoanBankDetails" Width="1.5" PointX="16.375" PointY="4.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanComment" Width="1.5" PointX="15.375" PointY="11.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanDonation" Width="1.5" PointX="16.375" PointY="14.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanLike" Width="1.5" PointX="17.375" PointY="0.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanShares" Width="1.5" PointX="17.375" PointY="9.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanUpdatesAttachment" Width="1.5" PointX="18.375" PointY="3.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanWithdrawRequest" Width="1.5" PointX="18.375" PointY="12.75" />
+        <EntityTypeShape EntityType="GivingActuallyModel.Tbl_LoanWithdrawRequestHistory" Width="1.5" PointX="18.375" PointY="17.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
